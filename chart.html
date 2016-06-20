@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unique Shop</title>
+<link rel="shortcut icon" href="logo/1.png">
+<style>
+body{
+	margin:0 auto;
+	width:1200px;
+	background-image:url(index.jpg);
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+	color:inherit;
+}
+.header{
+	border-bottom:5px solid grey;
+	height: 113px;
+	background:#64EABF;
+	border-radius:5px;
+	color:#808080;
+}
+.logo img{
+	border-radius:5px;
+}
+input{
+    width: 321px;
+    height: 27px;
+    margin-right: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 3px;
+    margin-top: -8px;
+}
+
+.header img{
+	float:left;
+	width:150px;
+	margin-left:20px;
+	margin-top:8px;
+}
+.list a{
+	float:right;
+	margin-right:80px;
+	margin-top:50px;
+	text-decoration:none;
+	font-size:24px;
+	color: white;
+}
+a:hover{
+	color:#E81B35;
+}
+.pencarian{
+	float:left;
+	margin-left:20px;
+	margin-top:50px;
+	font-size:12px;
+}
+.kategori {
+	float: left;
+	width: 220px;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 20px;
+	clear:both;
+	border-right: 2px solid #34F5C8;
+}
+
+#konten{
+	width: 0 auto;
+	margin-top:20px;
+	height: 519px;
+}
+
+#sidebar-kiri{
+	height: auto;
+	margin-left: 10px;
+	width: 880px;
+	float: left;
+}
+
+.isi-atas{
+	height: auto;
+	margin-top: 20px;
+	font-size: 14px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	width: 739px;
+	border-radius:10px;
+	padding: 20px;
+	background: #fff;
+}
+.isi-atas th,td	{
+	width:25%;
+	text-align:center;
+}
+.isi-kotak{
+    width: 260px;
+    height: 175px;
+    border: solid 1px #CCCCCC;
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 25px 10px 10px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+	text-align:center;
+}
+
+.isi-kotak2{
+    width: 180px;
+    height: 150px;
+    border: solid 3px #BEBEBE;
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 25px 10px 10px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+img{
+	width: 122px;
+    float: left;
+	margin-right:5px;
+}
+.list img{
+    width: 37px;
+    height: 37px;
+    margin-top: -4px;
+}
+.side-kanan{
+	float:left;
+	border:1px solid #E30D11;
+}
+
+.footer{
+	width: 0 auto;
+	height: 0 auto;
+	border-top: 5px solid #808080;
+	margin-top: 20px;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+
+.footer2{
+	float:left;
+	text-align:left;
+	margin:50px;
+	margin-top:auto;
+	width:200px;
+	height:100px;
+	text-decoration:none;	
+}
+.footer1{
+	float:left;
+	text-align:left;
+	margin:auto;
+	margin-top:auto;
+	width:200px;
+	height:100px;
+	text-decoration:none;
+}
+.item1{
+	float:left;
+	width:200px;
+	margin-left:30px;
+	padding:5px;
+}
+
+#bot-logo{
+	text-align:left;
+	font-size:24px;
+	margin-bottom:auto;
+	margin-top:60px;
+}
+
+td{
+	width:30px;
+	border-radius:5px;
+}
+.beli td{
+	background: #eee none repeat scroll 0% 0%;
+	height: 40px;
+	width: 111px;
+	float: right;
+	margin-left: 617px;
+	padding-top:9px;
+}
+.kotak{
+	width:880px;
+	float:left;
+	margin-top:20px;
+	margin-left:40px;
+}
+.kotak img{
+	width:150px;
+	height:150px;
+	margin-right:70px;
+}
+.lis{
+	display:table;
+	width:100%;
+	position:relative;
+}
+.lis li{
+	display:table-cell;
+	width:auto;
+	text-align:left;
+}
+.lis a{
+	text-align:center;
+	padding-left:50px;
+	font-size:18px;
+}
+.kotak li a{
+	background-color:#fff;
+	color:#000;
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display:block;
+	text-align:center;
+	padding:12px 0px;
+	text-transform:uppercase;
+}
+.ukuran td{
+	text-align:center;
+	width:100px;
+	margin-left:300px;
+}
+.atas img{
+	width:300px;
+	height:300px;	
+}
+.beli1 td{
+	float:left;
+	width: 616px;
+}
+	
+</style>
+</head>
+
+<body>
+<div class="header">
+	<div class="logo">
+	<img src="logo/logo.png">
+    </div>
+    <div class="list">
+    	<a href="login.html"><img src="logo/user-alt-128.png">Oza riski</a>
+       	<a href="chart.html"><img src="logo/shopping(1).png">chart </a>
+    </div>
+   	<div class="pencarian">
+    <input type="search" placeholder="Pencarian ...">
+    </div>
+</div>
+
+<div id="konten">
+<div class="kategori">
+    	<ul>
+        	<li><a href="index1.html">Beranda</a></li>
+        	<li><a href="">Wanita</a>
+            <ul>
+            <li><a href="tas2.html">Tas</a></li>
+            <li><a href="sepatu1.html">Sepatu</a></li>
+            <li><a href="kalung1.html">Aksesoris</a></li>
+       		</ul>
+       		</li>
+        </ul>
+        <ul>
+        	<li><a href="">Pria</a>
+            <ul>
+            	<li><a href="tas3">Tas</a></li>
+                <li><a href="">Pakaian</a></li>
+                <li><a href="">Sepatu</a></li>
+                <li><a href="">Jam</a></li>
+             </ul>
+             </li>
+        </ul>  
+    </div>
+<div class="nampung2">
+<div id="sidebar-kiri">
+	<div class="isi-atas">
+          <h4>Troli Anda</h4>Ada 1 item di troli anda
+        <div class="isi-troli">
+            <table cellpadding="0" cellspacing="0">
+              <tr>
+                <th></th>
+                <th>Barang</th>
+                <th>Harga</th>
+                <th>Banyak</th>
+                <th>Total</th>
+              <tr>
+              <tr>
+                <td><img width="150px" src="tas/bagtitude-bianca-shoulder-bag-black-1972-507305-2-catalog_3_2.jpg"></td>
+                <td>bianca-shoulder-bag-black - Wanita</td>
+                <td>Rp 199,000</td>
+                <td class="isi-kuantitas"><select name="banyak" class="masukan-daftar-ttl">
+                        <option value="na">1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option></td>
+                <td>Rp.199.900</td>                       
+              <tr>
+            </table>
+            <div class="total">
+                <hr>                
+                <p>Subtotal :<h2>RP.199,000</h2></p><br>
+                <a href=""><button>Lanjutkan ke Pembayaran</button></a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+   </div>
+</div>
+<div class="footer">
+    <div class="footer2">
+    	<ul>
+        	<h3>Unique Shop</h3>
+        	<li><a href="about1.html">Tentang Kami</a></li>
+        	<li><a href="">Video</a></li>
+        </ul>
+</div> 
+<div class="footer1">
+    	<ul>
+        	<h3>Beli</h3>
+        	<li><a href="">Beli di Unique Shop</a></li>
+        	<li><a href="">Cara Berbelanja</a></li>
+            <li><a href="">Pembayaran</a></li>
+            <li><a href="">Pengembalian Dana</a></li>
+            <li><a href="">Hotlist</a></li>
+        </ul>
+</div>
+
+<div class="footer1">
+    	<ul>
+        	<h3>Jual</h3>
+        	<li><a href="">Jual di Unique Shop</a></li>
+        	<li><a href="">Cara Berjualan</a></li>
+            <li><a href="">Beriklan</a></li>
+            <li><a href="">Penarikan Dana</a></li>
+        </ul>
+</div>
+
+<div class="footer2">
+    	<ul>
+        	<h3>Bantuan</h3>
+        	<li><a href="">Syarat dan ketentuan</a></li>
+        	<li><a href="">Kebijakan Privasi</a></li>
+            <li><a href=""> Pusat Resolusi</a></li>
+        	<li><a href="">Bantuan</a></li>
+
+        </ul>
+</div>
+       
+</body>
+</html>
