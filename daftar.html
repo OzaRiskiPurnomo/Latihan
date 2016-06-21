@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Daftar</title>
+<style>
+body{
+	margin:0 auto;
+	width:1200px;
+	background-image:url(index.jpg);
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+	color:inherit;
+}
+.header{
+	border-bottom:5px solid grey;
+	height: 113px;
+	background:#64EABF;
+	border-radius:5px;
+	color:#808080;
+}
+.logo img{
+	border-radius:5px;
+}
+input{
+    width: 221px;
+    height: 27px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.header img{
+	float:left;
+	width:150px;
+	margin-left:20px;
+	margin-top:8px;
+}
+.list a{
+	float:right;
+	margin-right:80px;
+	margin-top:50px;
+	text-decoration:none;
+	font-size:24px;
+	color: white;
+}
+a:hover{
+	color:#E81B35;
+}
+.pencarian{
+	float:left;
+	margin-left:20px;
+	margin-top:50px;
+	font-size:12px;
+}
+.list img{
+    width: 37px;
+    height: 37px;
+    margin-top: -4px;
+}
+#heading{
+	height:30px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+	margin-bottom:50px;
+}
+p{
+	font-weight:bolder;
+	margin-left:10px;
+}
+footer{
+	text-align:center;
+	padding-top:10px;
+	height:35px;
+}
+table{
+	margin-left:10px;
+}
+form{
+	border:2px solid red;
+	margin-top: 20px;
+	width:1000px;
+	margin-left: 100px;
+}
+
+#email #reemail #password{
+	width:410px;
+}
+span{
+	color:blue;
+}
+a{
+	text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div class="header">
+	<div class="logo">
+	<img src="logo/logo.png">
+    </div>
+    <div class="list">
+    	<a href="login.html"><img src="logo/user-alt-128.png">Login</a>
+       	<a href="chart.html"><img src="logo/shopping(1).png">chart </a>
+    </div>
+    <div class="pencarian">
+    <input type="search" placeholder="Pencarian ...">
+    </div>
+</div>
+</div>
+<form>
+	<div id="heading">
+    	<p style="font-size:24px;">Daftarlah Ke UNIQUE Shop Sekarang</p>
+     </div>
+     <content>
+     	<p style="font-size:24px;">Mendaftar Gratis sampai kapanpun.</p>
+     <table>
+     	<tr>
+        	<td id="label">
+            	<label for="namandepan">Nama Depan</label>
+            </td>
+            <td>
+            	<input type="text" name="namadepan" id="namadepan">
+            </td>
+           	<td id="label">
+            	<label for="namandepan">Nama Belakang</label>
+            </td>
+            <td>
+            	<input type="text" name="namabelakang" id="namabelakang">
+            </td>
+        </tr>
+        <tr>
+        	<td id="label">
+            	<label for="email">Email Anda</label>
+            </td>
+            <td colspan="3"> 
+            	<input type="text" name="email" id="email">
+            </td>
+        </tr>
+         <tr>
+        	<td id="label">
+            	<label for="password">Password Baru Anda</label>
+            </td>
+            <td colspan="3"> 
+            	<input type="password" id="password">
+            </td>
+        </tr>
+        <tr>
+        	<td id="label">
+            	<label for="password">Masukkan Ulang Password Anda</label>
+            </td>
+            <td colspan="3"> 
+            	<input type="password" id="password">
+            </td>
+        </tr>
+        <tr>
+        	<td id="label">
+            	<label for="tgllahir">Tanggal Lahir</label>
+            </td>
+            <td colspan="3"> 
+            	Tanggal
+                	<select name="tgl">
+                    	<option value="">[Pilih]</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">13</option>
+                        <option value="">14</option>
+                        <option value="">15</option>
+                        <option value="">16</option>
+                        <option value="">17</option>
+                        <option value="">18</option>
+                        <option value="">19</option>
+                        <option value="">20</option>
+                        <option value="">21</option>
+                        <option value="">22</option>
+                        <option value="">23</option>
+                        <option value="">24</option>
+                        <option value="">25</option>
+                        <option value="">26</option>
+                        <option value="">27</option>
+                        <option value="">28</option>
+                        <option value="">29</option>
+                        <option value="">30</option>
+                        <option value="">31</option>
+                    </select>
+                Bulan
+                	<select name="bln">
+                    	<option value="">[Pilih]</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                Tahun
+                	<select name="thn">
+                    	<option value="">[Pilih]</option>
+                        <option value="">2000</option>
+                        <option value="">1999</option>
+                        <option value="">1998</option>
+                        <option value="">1997</option>
+                        <option value="">1996</option>
+                        <option value="">1995</option>
+                        <option value="">1994</option>
+                        <option value="">1993</option>
+                        <option value="">1992</option>
+                        <option value="">1991</option>
+                        <option value="">1990</option>
+                        <option value="">1989</option>
+                        <option value="">1988</option>
+                        <option value="">1987</option>
+                    </select>
+            </td>
+        </tr>
+        <tr>
+        	<td id="label">
+            	<label for="jk">Jenis Kelamin</label>
+            </td>
+            <td colspan="3"> 
+            	<input type="radio" name="jk" value="perempuan">Perempuan
+            	<input type="radio" name="jk" value="perempuan">Laki-Laki
+            </td>
+        </tr>
+     </table>
+     <p style="font-weight:normal;">
+     	<input type="checkbox" name="rule" value="agree">
+        Dengan mengklik mendaftar, anda menyetujui <span>Ketentuan</span>
+        kami dan anda sudah membaca <span>Kebijakan</span> sebagai pelanggan.
+     </p>
+  </content>
+  <footer>
+  	<a href="index1.html"><input type="button" value="Mendaftar"></a>
+    <input type="Reset">
+  </footer>
+</form>
+</body>
+</html>
+
